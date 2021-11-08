@@ -1,0 +1,31 @@
+{
+  "name": "@ogle/ui-box",
+  "version": "1.0.0",
+  "description": "Write and execute MySQL queries with sql tag template litterals",
+  "author": "Cédric Marcone",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedric-marcone/ogle.git"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "exports": "./dist/module.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19"
+  },
+  "bugs": {
+    "url": "https://github.com/cedric-marcone/ogle/issues"
+  },
+  "homepage": "https://github.com/cedric-marcone/ogle#readme"
+}

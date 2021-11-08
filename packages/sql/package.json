@@ -1,0 +1,29 @@
+{
+  "name": "@ogle/sql",
+  "version": "1.0.0",
+  "description": "Write and execute MySQL queries with sql tag template litterals",
+  "author": "Cédric Marcone",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedric-marcone/ogle.git"
+  },
+  "sideEffects": false,
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.19"
+  },
+  "bugs": {
+    "url": "https://github.com/cedric-marcone/ogle/issues"
+  },
+  "homepage": "https://github.com/cedric-marcone/ogle#readme"
+}
